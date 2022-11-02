@@ -1,1 +1,26 @@
-{"$schema":"http://json-schema.org/draft-07/schema#","type":"object","properties":{},"additionalProperties":false}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "nandikajayawardana": {
+      "type": "object",
+      "properties": {
+        "locatestaredgitrepositories": {
+          "type": "object",
+          "properties": {
+            "accessToken": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "accessToken"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
